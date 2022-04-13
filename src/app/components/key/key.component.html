@@ -1,0 +1,19 @@
+<!--<ng-template #content let-modal>
+  <mat-card>
+    <form>
+      <input id="key" name="key" ngModel placeholder="key">
+
+    </form>
+  </mat-card>
+</ng-template>
+-->
+
+<h1 mat-dialog-title>Insert the Key!!!!!!</h1>
+<div mat-dialog-content>
+  <input #key type="text" name="key" ngModel placeholder="enter the key" maxlength="1">
+  <button mat-raised-button (click)="enterKey(key.value)">Enter</button>
+<h2>{{message}}</h2>
+
+</div>
+
+
