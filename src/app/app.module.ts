@@ -13,6 +13,8 @@ import { KeyComponent } from './components/key/key.component';
 import {MatDialog, MatDialogModule, MatDialogRef} from '@angular/material/dialog';
 import { ShareKeyService } from './components/Service/share-key.service';
 import { HttpClientModule } from '@angular/common/http';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+
 
 @NgModule({
   declarations: [
@@ -31,6 +33,7 @@ import { HttpClientModule } from '@angular/common/http';
     MatProgressSpinnerModule,
     MatDialogModule,
 
+    MatCheckboxModule,
     MatFormFieldModule,
     HttpClientModule
   ],
