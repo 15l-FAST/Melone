@@ -10,6 +10,7 @@ import { ShareKeyService } from './components/Service/share-key.service';
   styleUrls: ['./app.component.css']
 })
 
+  // test comment
 
 export class AppComponent {
   title = 'counter';
